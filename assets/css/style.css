@@ -1,0 +1,199 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.content {
+  min-height: 100%;
+  margin-bottom: -40px;
+}
+
+body {
+  background-color: #dddddd;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  color: #777777;
+  background-image: url(/Basic-Portfolio/assets/images/dynamic-style.png);
+}
+
+h1 {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-size: 1.5em;
+}
+header {
+  background-color: #ffffff;
+  overflow: auto;
+  border-bottom: 2px solid #cccccc;
+}
+.upperTab {
+  padding: 10px;
+  background-color: #4aaaa5;
+  float: left;
+  color: #ffffff;
+}
+section {
+  width: 960px;
+  margin: 0 auto;
+  clear: left;
+  background-color: #ffffff;
+  margin-top: 10px;
+  border: 2px solid #dddddd;
+}
+
+.portfolio {
+  overflow: auto;
+  position: relative;
+  height: 700px;
+}
+
+.hangman {
+  position: absolute;
+  top: 70px;
+  left: 15px;
+}
+
+.img-text {
+  position: absolute;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  width: 240px;
+  text-align: center;
+  bottom: 20px;
+}
+
+.img-text:hover {
+  background-color: #96a9aa;
+}
+
+.rpg {
+  position: absolute;
+  top: 70px;
+  left: 300px;
+}
+
+.trivia {
+  position: absolute;
+  top: 270px;
+  left: 15px;
+}
+
+.rutgers {
+  position: absolute;
+  top: 270px;
+  left: 300px;
+}
+
+.rock {
+  position: absolute;
+  top: 470px;
+  left: 15px;
+}
+
+.header-content {
+  width: 960px;
+  margin: 0 auto;
+}
+section p {
+  margin-left: 15px;
+  margin-right: 15px;
+  line-height: 2em;
+}
+nav {
+  float: right;
+  margin-top: 15px;
+}
+
+li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: #777777;
+}
+
+.footer,
+.push {
+  height: 32px;
+}
+
+footer {
+  text-align: center;
+  vertical-align: bottom;
+  background-color: #666666;
+  border-top: 8px solid #4aaaa5;
+  position: relative;
+}
+footer p {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0px;
+}
+
+.about {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #dddddd;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  color: #4aaaa5;
+}
+
+img {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 8px;
+
+  float: left;
+}
+.sidebar {
+  border-right: 1px solid #dddddd;
+  padding-right: 15px;
+  margin-right: 15px;
+}
+a:hover {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  border-radius: 10%;
+}
+
+a:visited {
+  background-color: #96a9aa;
+}
+
+input,
+textarea {
+  width: 930px;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-left: 15px;
+}
+
+textarea {
+  margin-bottom: 5px;
+}
+.submit {
+  display: inline;
+  color: #ffffff;
+  background-color: #4aaaa5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 15px;
+}
+
+.submit:hover {
+  background-color: #96a9aa;
+}
+
+.space {
+  height: 15px;
+}
